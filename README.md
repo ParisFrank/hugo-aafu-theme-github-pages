@@ -4,13 +4,6 @@ This repository provides a simple starter template for creating a website using 
 
 ## Installation
 
-```shell
-git clone https://github.com/darshanbaral/aafu.git
-cd aafu
-npm install
-hugo server
-```
-
 1. Open your terminal.
 2. You may need to install the XCode Command Line Tools:
 
