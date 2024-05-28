@@ -37,6 +37,30 @@ This repository provides a simple starter template for creating a website using 
 
 It could be that after installing Homebrew, brew is not found in the $PATH variable. The script will stop, since it won't find the brew command. Add brew to the $PATH variable and restart the `./setup.sh`. Usually the post-installation process of Homebrew will tell you the exact commands, you need to use in the part called Next Steps.
 
+## Configure Git
+
+1. Set up your local Git configuration with your name and email. These details will be used for your commits.
+
+  ```bash
+  git config --global user.name "Your Name"
+  git config --global user.email "your.email@example.com"
+  ```
+
+2. Create personal access token for authenticating with GitHub:
+
+* Log in to your GitHub account.
+* Click on your profile picture in the top right corner and select "Settings".
+* In the left sidebar, click on "Developer settings".
+* Click on "Personal access tokens".
+* Click on "Generate new token".
+* Give your token a descriptive name.
+* Select the scopes or permissions you need (e.g., repo for full control of private repositories).
+* Click "Generate token".
+
+Important: Copy the token immediately and store it securely. You won’t be able to see it again.
+
+3. When Git prompts you for a username and password during a push or pull operation, use your GitHub username as the username. Use the personal access token as the password.
+
 ## Folder and File Structure
 
 ### Folder *assets*
