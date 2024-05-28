@@ -2,7 +2,7 @@
 
 This repository provides a simple starter template for creating a website using Hugo and hosting it on GitHub Pages. Follow the instructions below to set up the project.
 
-## Installation
+## TODO: Installation
 
 1. Open your terminal.
 2. You may need to install the XCode Command Line Tools:
@@ -37,7 +37,7 @@ This repository provides a simple starter template for creating a website using 
 
 It could be that after installing Homebrew, brew is not found in the $PATH variable. The script will stop, since it won't find the brew command. Add brew to the $PATH variable and restart the `./setup.sh`. Usually the post-installation process of Homebrew will tell you the exact commands, you need to use in the part called Next Steps.
 
-## Configure Git
+## TODO: Configure Git
 
 1. Set up your local Git configuration with your name and email. These details will be used for your commits.
 
@@ -61,7 +61,7 @@ Important: Copy the token immediately and store it securely. You won’t be able
 
 3. When Git prompts you for a username and password during a push or pull operation, use your GitHub username as the username. Use the personal access token as the password.
 
-## Folder and File Structure
+## FYI: Folder and File Structure
 
 ### Folder *assets*
 
@@ -87,7 +87,7 @@ Important: Copy the token immediately and store it securely. You won’t be able
 
 - Edit the `config.yaml` file. Pay attention to lines under "[params]". Lines starting with # are comments. Customize these settings according to your preferences.
 
-## Getting Started Developing Locally
+## TODO: Getting Started Developing Locally
 
 To preview your site, run `hugo server -D` in the terminal and visit the provided local address.
 
@@ -99,7 +99,7 @@ Suggested Things to do:
 4. Customize styles in `assets/main.css` if needed.
 5. Customize structure in `layouts` if needed.
 
-## Deploy to Github Pages
+## FYI: Deploy to Github Pages
 
 Refer to following page for more information: https://gohugo.io/hosting-and-deployment/hosting-on-github/
 
