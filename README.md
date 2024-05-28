@@ -83,10 +83,6 @@ Note: A github workflow was already added to the repository. Update `.github/wor
 
 ----------------------------------------------------------------------------
 
-## License
-
-The original template is released under the [Creative Commons Attribution 3.0 License](//github.com/escalate/hugo-split-theme/blob/master/LICENSE.md). Please keep the original attribution link when using for your own project. If you'd like to use the template without the attribution, you can check out the license option via the template [author's website](//onepagelove.com/split).
-
 ## Annotations
 
 - Original [aafu theme](https://themes.gohugo.io/themes/aafu/) by [Darshan Baral](https://darshanbaral.com/)
