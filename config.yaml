@@ -3,7 +3,6 @@ build:
   writeStats: true
 disableKinds:
   - taxonomy
-  - taxonomyTerm
 params:
   copyright: >-
     powered by [hugo](https://gohugo.io/) & deployed on
