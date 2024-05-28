@@ -36,6 +36,12 @@ hugo server
    ./setup.sh
    ```
 
+6. Install dependencies:
+
+  ```bash
+  npm install
+  ```
+
 It could be that after installing Homebrew, brew is not found in the $PATH variable. The script will stop, since it won't find the brew command. Add brew to the $PATH variable and restart the `./setup.sh`. Usually the post-installation process of Homebrew will tell you the exact commands, you need to use in the part called Next Steps.
 
 ## Folder and File Structure
