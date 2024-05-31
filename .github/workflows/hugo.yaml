@@ -52,7 +52,7 @@ jobs:
         with:
           node-version: '14'
       - name: Install Node.js dependencies
-        run: npm install
+        run: npm install && npm install postcss-cli
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
