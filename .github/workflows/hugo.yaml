@@ -52,7 +52,7 @@ jobs:
         with:
           node-version: '14'
       - name: Install Node.js dependencies
-        run: ls && npm install && ls && ls node_modules
+        run: ls && ls ~/.npm && npm install && ls && ls ~/.npm && ls ~/.npm/node_modules
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
