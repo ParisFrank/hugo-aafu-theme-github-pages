@@ -47,12 +47,12 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
-      - name: Install Node.js and npm
-        uses: actions/setup-node@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: '14'
+          node-version: 18
       - name: Install Node.js dependencies
-        run: ls && ls ~/.npm && npm install && ls && ls ~/.npm && ls ~/.npm/node_modules
+        run: npm ci
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
