@@ -65,10 +65,9 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
-          name: public
+          name: hugo-site
           path: ./public
 
-  # Deployment job
   deploy:
     environment:
       name: github-pages
@@ -79,8 +78,10 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v2
         with:
-          name: public
+          name: hugo-site
+          path: ./public
+      - name: Verify artifact content
+        run: ls -R ./public
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
-
